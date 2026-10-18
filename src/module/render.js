@@ -3,7 +3,7 @@ export function render(list, animes) {
   list.innerHTML = animes
     .map((anime) => {
       return `
-   <div class="card" data-id="${anime.id}" data-name="${anime.anime}">
+   <div class="card" data-id="${anime.id}" ">
       <div class="card-inner" >
         <div class="card-front card-black"></div>
         <div class="card-back">
